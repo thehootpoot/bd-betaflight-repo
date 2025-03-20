@@ -1,373 +1,117 @@
-# 
-
-# get osd
-osd_units = METRIC
-Allowed values: IMPERIAL, METRIC, BRITISH
-
-osd_warn_bitmask = 270335
-Allowed range: 0 - 4294967295
-
-osd_rssi_alarm = 20
-Allowed range: 0 - 100
-
-osd_link_quality_alarm = 80
-Allowed range: 0 - 100
-
-osd_rssi_dbm_alarm = -98
-Allowed range: -130 - 0
-Default value: -60
-
-osd_rsnr_alarm = 4
-Allowed range: -30 - 20
-
-osd_cap_alarm = 2200
-Allowed range: 0 - 20000
-
-osd_alt_alarm = 100
-Allowed range: 0 - 10000
-
-osd_distance_alarm = 0
-Allowed range: 0 - 65535
-
-osd_esc_temp_alarm = 0
-Allowed range: 0 - 255
-
-osd_esc_rpm_alarm = -1
-Allowed range: -1 - 32767
-
-osd_esc_current_alarm = -1
-Allowed range: -1 - 32767
-
-osd_core_temp_alarm = 70
-Allowed range: 0 - 255
-
-osd_ah_max_pit = 20
-Allowed range: 0 - 90
-
-osd_ah_max_rol = 40
-Allowed range: 0 - 90
-
-osd_ah_invert = OFF
-Allowed values: OFF, ON
-
-osd_logo_on_arming = OFF
-Allowed values: OFF, ON, FIRST_ARMING
-
-osd_logo_on_arming_duration = 5
-Allowed range: 5 - 50
-
-osd_tim1 = 2560
-Allowed range: 0 - 32767
-
-osd_tim2 = 2561
-Allowed range: 0 - 32767
-
-osd_vbat_pos = 2060
-Allowed range: 0 - 65535
-Default value: 341
-
-osd_rssi_pos = 341
-Allowed range: 0 - 65535
-
-osd_link_quality_pos = 3117
-Allowed range: 0 - 65535
-Default value: 341
-
-osd_link_tx_power_pos = 2092
-Allowed range: 0 - 65535
-Default value: 341
-
-osd_rssi_dbm_pos = 3108
-Allowed range: 0 - 65535
-Default value: 341
-
-osd_rsnr_pos = 341
-Allowed range: 0 - 65535
-
-osd_tim_1_pos = 2050
-Allowed range: 0 - 65535
-Default value: 341
-
-osd_tim_2_pos = 3085
-Allowed range: 0 - 65535
-Default value: 341
-
-osd_remaining_time_estimate_pos = 341
-Allowed range: 0 - 65535
-
-osd_flymode_pos = 341
-Allowed range: 0 - 65535
-
-osd_anti_gravity_pos = 341
-Allowed range: 0 - 65535
-
-osd_g_force_pos = 341
-Allowed range: 0 - 65535
-
-osd_throttle_pos = 2594
-Allowed range: 0 - 65535
-Default value: 341
-
-osd_vtx_channel_pos = 341
-Allowed range: 0 - 65535
-
-osd_crosshairs_pos = 312
-Allowed range: 0 - 65535
-
-osd_ah_sbar_pos = 313
-Allowed range: 0 - 65535
-
-osd_ah_pos = 185
-Allowed range: 0 - 65535
-
-osd_current_pos = 2646
-Allowed range: 0 - 65535
-Default value: 341
-
-osd_mah_drawn_pos = 1088
-Allowed range: 0 - 65535
-Default value: 341
-
-osd_wh_drawn_pos = 341
-Allowed range: 0 - 65535
-
-osd_motor_diag_pos = 341
-Allowed range: 0 - 65535
-
-osd_craft_name_pos = 2082
-Allowed range: 0 - 65535
-Default value: 341
-
-osd_pilot_name_pos = 341
-Allowed range: 0 - 65535
-
-osd_gps_speed_pos = 341
-Allowed range: 0 - 65535
-
-osd_gps_lon_pos = 341
-Allowed range: 0 - 65535
-
-osd_gps_lat_pos = 341
-Allowed range: 0 - 65535
-
-osd_gps_sats_pos = 341
-Allowed range: 0 - 65535
-
-osd_home_dir_pos = 341
-Allowed range: 0 - 65535
-
-osd_home_dist_pos = 341
-Allowed range: 0 - 65535
-
-osd_flight_dist_pos = 341
-Allowed range: 0 - 65535
-
-osd_compass_bar_pos = 341
-Allowed range: 0 - 65535
-
-osd_altitude_pos = 2626
-Allowed range: 0 - 65535
-Default value: 341
-
-osd_pid_roll_pos = 341
-Allowed range: 0 - 65535
-
-osd_pid_pitch_pos = 341
-Allowed range: 0 - 65535
-
-osd_pid_yaw_pos = 341
-Allowed range: 0 - 65535
-
-osd_debug_pos = 341
-Allowed range: 0 - 65535
-
-osd_power_pos = 341
-Allowed range: 0 - 65535
-
-osd_pidrate_profile_pos = 341
-Allowed range: 0 - 65535
-
-osd_warnings_pos = 14390
-Allowed range: 0 - 65535
-Default value: 14772
-
-osd_avg_cell_voltage_pos = 2615
-Allowed range: 0 - 65535
-Default value: 341
-
-osd_pit_ang_pos = 341
-Allowed range: 0 - 65535
-
-osd_rol_ang_pos = 341
-Allowed range: 0 - 65535
-
-osd_battery_usage_pos = 341
-Allowed range: 0 - 65535
-
-osd_disarmed_pos = 341
-Allowed range: 0 - 65535
-
-osd_nheading_pos = 341
-Allowed range: 0 - 65535
-
-osd_up_down_reference_pos = 312
-Allowed range: 0 - 65535
-
-osd_ready_mode_pos = 341
-Allowed range: 0 - 65535
-
-osd_nvario_pos = 341
-Allowed range: 0 - 65535
-
-osd_esc_tmp_pos = 341
-Allowed range: 0 - 65535
-
-osd_esc_rpm_pos = 341
-Allowed range: 0 - 65535
-
-osd_esc_rpm_freq_pos = 341
-Allowed range: 0 - 65535
-
-osd_rtc_date_time_pos = 341
-Allowed range: 0 - 65535
-
-osd_adjustment_range_pos = 341
-Allowed range: 0 - 65535
-
-osd_flip_arrow_pos = 341
-Allowed range: 0 - 65535
-
-osd_core_temp_pos = 341
-Allowed range: 0 - 65535
-
-osd_log_status_pos = 341
-Allowed range: 0 - 65535
-
-osd_stick_overlay_left_pos = 341
-Allowed range: 0 - 65535
-
-osd_stick_overlay_right_pos = 341
-Allowed range: 0 - 65535
-
-osd_stick_overlay_radio_mode = 2
-Allowed range: 1 - 4
-
-osd_rate_profile_name_pos = 341
-Allowed range: 0 - 65535
-
-osd_pid_profile_name_pos = 341
-Allowed range: 0 - 65535
-
-osd_profile_name_pos = 341
-Allowed range: 0 - 65535
-
-osd_rcchannels_pos = 341
-Allowed range: 0 - 65535
-
-osd_camera_frame_pos = 142
-Allowed range: 0 - 65535
-
-osd_efficiency_pos = 341
-Allowed range: 0 - 65535
-
-osd_total_flights_pos = 341
-Allowed range: 0 - 65535
-
-osd_aux_pos = 341
-Allowed range: 0 - 65535
-
-osd_sys_goggle_voltage_pos = 341
-Allowed range: 0 - 65535
-
-osd_sys_vtx_voltage_pos = 341
-Allowed range: 0 - 65535
-
-osd_sys_bitrate_pos = 341
-Allowed range: 0 - 65535
-
-osd_sys_delay_pos = 341
-Allowed range: 0 - 65535
-
-osd_sys_distance_pos = 341
-Allowed range: 0 - 65535
-
-osd_sys_lq_pos = 341
-Allowed range: 0 - 65535
-
-osd_sys_goggle_dvr_pos = 341
-Allowed range: 0 - 65535
-
-osd_sys_vtx_dvr_pos = 341
-Allowed range: 0 - 65535
-
-osd_sys_warnings_pos = 341
-Allowed range: 0 - 65535
-
-osd_sys_vtx_temp_pos = 341
-Allowed range: 0 - 65535
-
-osd_sys_fan_speed_pos = 341
-Allowed range: 0 - 65535
-
-osd_stat_bitmask = 10516396
-Allowed range: 0 - 4294967295
-Default value: 14124
-
-osd_profile = 1
-Allowed range: 1 - 3
-
-osd_profile_1_name = -
-String length: 1 - 16
-
-osd_profile_2_name = -
-String length: 1 - 16
-
-osd_profile_3_name = -
-String length: 1 - 16
-
-osd_gps_sats_show_hdop = OFF
-Allowed values: OFF, ON
-
-osd_displayport_device = MSP
-Allowed values: NONE, AUTO, MAX7456, MSP, FRSKYOSD
-
-osd_rcchannels = -1,-1,-1,-1
-Array length: 4
-
-osd_camera_frame_width = 24
-Allowed range: 2 - 30
-
-osd_camera_frame_height = 11
-Allowed range: 2 - 16
-
-osd_stat_avg_cell_value = OFF
-Allowed values: OFF, ON
-
-osd_framerate_hz = 12
-Allowed range: 1 - 60
-
-osd_menu_background = TRANSPARENT
-Allowed values: TRANSPARENT, BLACK, GRAY, LIGHT_GRAY
-
-osd_aux_channel = 1
-Allowed range: 1 - 18
-
-osd_aux_scale = 200
-Allowed range: 1 - 1000
-
-osd_aux_symbol = 65
-Allowed range: 0 - 255
-
-osd_canvas_width = 53
-Allowed range: 0 - 63
-
-osd_canvas_height = 20
-Allowed range: 0 - 31
-
-osd_craftname_msgs = OFF
-Allowed values: OFF, ON
-
-scheduler_relax_osd = 25
-Allowed range: 0 - 500
-
-# 
+set osd_units = METRIC
+set osd_warn_bitmask = 270335
+set osd_rssi_alarm = 20
+set osd_link_quality_alarm = 80
+set osd_rssi_dbm_alarm = -98
+set osd_rsnr_alarm = 4
+set osd_cap_alarm = 2200
+set osd_alt_alarm = 100
+set osd_distance_alarm = 0
+set osd_esc_temp_alarm = 0
+set osd_esc_rpm_alarm = -1
+set osd_esc_current_alarm = -1
+set osd_core_temp_alarm = 70
+set osd_ah_max_pit = 20
+set osd_ah_max_rol = 40
+set osd_ah_invert = OFF
+set osd_logo_on_arming = OFF
+set osd_logo_on_arming_duration = 5
+set osd_tim1 = 2560
+set osd_tim2 = 2561
+set osd_vbat_pos = 2060
+set osd_rssi_pos = 341
+set osd_link_quality_pos = 3117
+set osd_link_tx_power_pos = 2092
+set osd_rssi_dbm_pos = 3108
+set osd_rsnr_pos = 341
+set osd_tim_1_pos = 2050
+set osd_tim_2_pos = 3085
+set osd_remaining_time_estimate_pos = 341
+set osd_flymode_pos = 341
+set osd_anti_gravity_pos = 341
+set osd_g_force_pos = 341
+set osd_throttle_pos = 2594
+set osd_vtx_channel_pos = 341
+set osd_crosshairs_pos = 312
+set osd_ah_sbar_pos = 313
+set osd_ah_pos = 185
+set osd_current_pos = 2646
+set osd_mah_drawn_pos = 1088
+set osd_wh_drawn_pos = 341
+set osd_motor_diag_pos = 341
+set osd_craft_name_pos = 2082
+set osd_pilot_name_pos = 341
+set osd_gps_speed_pos = 341
+set osd_gps_lon_pos = 341
+set osd_gps_lat_pos = 341
+set osd_gps_sats_pos = 341
+set osd_home_dir_pos = 341
+set osd_home_dist_pos = 341
+set osd_flight_dist_pos = 341
+set osd_compass_bar_pos = 341
+set osd_altitude_pos = 2626
+set osd_pid_roll_pos = 341
+set osd_pid_pitch_pos = 341
+set osd_pid_yaw_pos = 341
+set osd_debug_pos = 341
+set osd_power_pos = 341
+set osd_pidrate_profile_pos = 341
+set osd_warnings_pos = 14390
+set osd_avg_cell_voltage_pos = 2615
+set osd_pit_ang_pos = 341
+set osd_rol_ang_pos = 341
+set osd_battery_usage_pos = 341
+set osd_disarmed_pos = 341
+set osd_nheading_pos = 341
+set osd_up_down_reference_pos = 312
+set osd_ready_mode_pos = 341
+set osd_nvario_pos = 341
+set osd_esc_tmp_pos = 341
+set osd_esc_rpm_pos = 341
+set osd_esc_rpm_freq_pos = 341
+set osd_rtc_date_time_pos = 341
+set osd_adjustment_range_pos = 341
+set osd_flip_arrow_pos = 341
+set osd_core_temp_pos = 341
+set osd_log_status_pos = 341
+set osd_stick_overlay_left_pos = 341
+set osd_stick_overlay_right_pos = 341
+set osd_stick_overlay_radio_mode = 2
+set osd_rate_profile_name_pos = 341
+set osd_pid_profile_name_pos = 341
+set osd_profile_name_pos = 341
+set osd_rcchannels_pos = 341
+set osd_camera_frame_pos = 142
+set osd_efficiency_pos = 341
+set osd_total_flights_pos = 341
+set osd_aux_pos = 341
+set osd_sys_goggle_voltage_pos = 341
+set osd_sys_vtx_voltage_pos = 341
+set osd_sys_bitrate_pos = 341
+set osd_sys_delay_pos = 341
+set osd_sys_distance_pos = 341
+set osd_sys_lq_pos = 341
+set osd_sys_goggle_dvr_pos = 341
+set osd_sys_vtx_dvr_pos = 341
+set osd_sys_warnings_pos = 341
+set osd_sys_vtx_temp_pos = 341
+set osd_sys_fan_speed_pos = 341
+set osd_stat_bitmask = 10516396
+set osd_profile = 1
+set osd_profile_1_name = -
+set osd_profile_2_name = -
+set osd_profile_3_name = -
+set osd_gps_sats_show_hdop = OFF
+set osd_displayport_device = MSP
+set osd_rcchannels = -1,-1,-1,-1
+set osd_camera_frame_width = 24
+set osd_camera_frame_height = 11
+set osd_stat_avg_cell_value = OFF
+set osd_framerate_hz = 12
+set osd_menu_background = TRANSPARENT
+set osd_aux_channel = 1
+set osd_aux_scale = 200
+set osd_aux_symbol = 65
+set osd_canvas_width = 53
+set osd_canvas_height = 20
+set osd_craftname_msgs = OFF
