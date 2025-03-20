@@ -3,7 +3,7 @@
   "presets": [
     {
       "name": "BD_defaults",
-      "path": "firmware-presets/4.5/osd/BD_defaults.txt",
+      "path": "presets/4.5/osd/BD_defaults.txt",
       "description": "BD personal OSD preset",
       "category": "osd",
       "firmware": "4.5",
