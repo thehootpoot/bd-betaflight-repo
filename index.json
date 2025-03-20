@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "presets": [
+    {
+      "name": "BD_defaults",
+      "path": "presets/4.5/osd/BD_defaults.txt",
+      "description": "BD personal OSD preset",
+      "category": "osd",
+      "firmware": "4.5",
+      "tags": ["osd", "aos", "custom"]
+    }
+  ]
+}
